@@ -11,27 +11,40 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* B.S. in Mathematics, Yale University, 2026 (expected)
 
-Work experience
+Work experience (2023 -- )
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* September 2024 -- Present: Rex Ying Graph and Geometric Learning Lab
+  * Research Intern
+  * Researching graph-aware PEFT for LLMs
+  * Mentor: Prof. Rex Ying (Yale), Jialin Chen (Yale)
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Summer 2024: Los Alamos National Laboratory
+  * Research Intern
+  * Researched generative graph neural networks in application to critical infrastructure
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+* Fall 2023 -- Spring 2024: QED REU
+  * Research Intern
+  * Researched Helly-type results in combinatorial geometry. 
+  * Continuing research after program end; paper forthcoming.
+  * Mentor: Prof. Pablo Soberón (CUNY Baruch)
+
+* Summer 2023: Financial Risk Group
+  * Business Analytics Intern
+  * Statistical analyses and NNs for modeling financial outcomes.
+
+Coursework
+=====
+* Linear Algebra
+* Real Analysis, Complex Analysis, Vector Analysis on Manifolds
+* Measure Theory, Fourier Analysis
+* Differential Geometry
+* Discrete Mathematics, Measure Theoretic Probability
+* Abstract Algebra
+* DS&A, Machine Learning
+
+<!---
 Skills
 ======
 * Skill 1
@@ -41,24 +54,24 @@ Skills
   * Sub-skill 2.3
 * Skill 3
 
-Publications
+  Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
-  
 Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
+-->
+
+Service
 ======
-* Currently signed in to 43 different slack teams
+* Co-President of Women and Gender Minority Students in Math at Yale
+* Yale Math Department Climate Committee

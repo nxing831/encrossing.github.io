@@ -23,10 +23,10 @@ main:
     url: /journal/
 
   - title: "Blog"
-    url: /year-archive/
+    url: /blog/
     
   #- title: "CV"
   #  url: /cv/
     
-  - title: "Guide"
-    url: /markdown/
+  #- title: "Guide"
+  #  url: /markdown/
