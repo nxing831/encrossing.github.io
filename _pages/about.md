@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "nicole: self-declared fishing extraordinaire & math enjoyer"
+title: "the internet schemes of a self-declared fishing extraordinaire & math enjoyer"
 author_profile: true
 redirect_from: 
   - /about/
