@@ -1,16 +1,15 @@
 ---
 permalink: /
-title: "the internet schemes of a self-declared fishing extraordinaire & math enjoyer"
+title: "nicole's web archive: home"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-**this website is under construction and empty almost everywhere**
 
-welcome to my web archive! i'll be storing pretty much everything here (read: more than a cv). 
+welcome to my website! it's new, constantly under construction, and empty \\(\mu-a.e\\)., but i'll be storing pretty much everything here.
 
-**the academic:** i'm nicole, and i'm an undergraduate math major at yale! my research interests are ???, but i'm currently researching:
+**the academic:** i'm nicole, and i'm an undergraduate math major at yale. my research interests are ???, but i'm currently researching:
 * graph-aware PEFT for LLMs with the Rex Ying Graph & Geometric Learning Lab (Yale)
 * discrete mathematics with Prof. Pablo Sóberon (CUNY Baruch). 
 

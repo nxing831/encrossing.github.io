@@ -24,8 +24,8 @@ author:
   avatar           : "profile_image.JPG"
   name             : "Nicole Xing"
   pronouns         : "she/her"
-  #bio              : "Short biography for the left-hand sidebar"
-  location         : "New Haven, CT / Cary, NC"
+  bio              : "self-declared fishing extraordinaire & math enjoyer"
+  location         : "New Haven, CT"
   employer         : "Yale University"
   #uri              : # URL
   #email            : "none@example.org" 

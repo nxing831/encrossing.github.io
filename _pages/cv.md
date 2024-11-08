@@ -75,3 +75,8 @@ Service
 ======
 * Co-President of Women and Gender Minority Students in Math at Yale
 * Yale Math Department Climate Committee
+
+Other
+======
+* Lehigh Summer School on Stochastic Methods and Computation
+* CUNY Converge 2024 Conference
