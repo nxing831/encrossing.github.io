@@ -1,9 +1,11 @@
 ---
-title: "Degrees of Freedom: II. Impetus and Introduction"
-permalink: /pages/wgss_project/intro
+title: "Degrees of Freedom: Reflections on the Academic Sciences"
+permalink: /pages/wgss_project/intro/
 redirect_from: 
-  - /pages/wgss_project/intro/
+  - /pages/wgss_project/intro
 ---
+## II. Impetus and Introduction
+*To return to the table of contents, click [here](\pages/wgss_project/home\). To return to the previous section, click [here](\projects/2024-11-08-wgss_328/\).*
 
 A critical of reading of the humanities today involves, in part, a simultaneous taking and rejection of previous works, even those deemed seminal. There is an acknowledgment of the colonial and capitalist roots in Western scholarship, and it is possible to study the humanities in perhaps a more "conscious" manner today. These paradigm shifts are not easy; to reject a popular idea is to metaphorically remove the foundations of those which came after. But in mathematics, the problem is twofold. There is no notion of falsehood in mathematics, and there is no mathematical untruth which can become true through a discriminatory lens. This is a double-edged sword; in a sense, the purity of mathematics has made it immune to human biases and attempts to reshape the world. At the same time, it has been weaponized to justify these very actions under the guise of ultimate authority and truth. To reject a mathematical idea is to reject truth itself, and, rather than removing the ideological or philosophical roots of an idea in the humanities, it axiomatically destroys all of the mathematics that have ever followed. 
 
@@ -12,3 +14,5 @@ It is easy to suggest, then, that the field is exempt from self-scrutiny. Many a
 I aim to explore the meaning of tradition, rejection, and revolution in the context of mathematics. I took WGSS 328 with the hopes of understanding something which has nurtured so many feelings of personal unbelonging and failure. I see now that I will never not be confused; I see the harm is as mundane and random as it is systematic and organized. In this work I explore not the banality of evil, but mundane harms. I attempt to map those minds which have been amplified or silenced at different points of time. I defer to history as both admirable and upsetting, as well as the politics of rejection, truth, self-punishment, and community action. 
 
 I am grateful for those who have aided my journey, many of whom are interviewed in the course of this project, including (list to come).
+
+*[Next section: History of Mathematics at Yale](\pages/wgss_project/history/)*
