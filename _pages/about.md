@@ -11,7 +11,7 @@ welcome to my website! it's new, constantly under construction, and empty \\(\mu
 
 **the academic:** i'm nicole, and i'm an undergraduate math major at yale. my research interests are ???, but i'm currently researching:
 * graph-aware PEFT for LLMs with the Rex Ying Graph & Geometric Learning Lab (Yale)
-* discrete mathematics with Prof. Pablo Sóberon (CUNY Baruch). 
+* discrete mathematics with Prof. Pablo Soberón (CUNY Baruch). 
 
 my brief CV is [here](cv/ "cv").
 
