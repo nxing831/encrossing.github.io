@@ -1,8 +1,8 @@
 ---
 title: "Degrees of Freedom: II. Impetus and Introduction"
-permalink: /pages/wgss_project/intro/
+permalink: /pages/wgss_project/intro
 redirect_from: 
-  - /pages/wgss_project/intro
+  - /pages/wgss_project/intro/
 ---
 
 A critical of reading of the humanities today involves, in part, a simultaneous taking and rejection of previous works, even those deemed seminal. There is an acknowledgment of the colonial and capitalist roots in Western scholarship, and it is possible to study the humanities in perhaps a more "conscious" manner today. These paradigm shifts are not easy; to reject a popular idea is to metaphorically remove the foundations of those which came after. But in mathematics, the problem is twofold. There is no notion of falsehood in mathematics, and there is no mathematical untruth which can become true through a discriminatory lens. This is a double-edged sword; in a sense, the purity of mathematics has made it immune to human biases and attempts to reshape the world. At the same time, it has been weaponized to justify these very actions under the guise of ultimate authority and truth. To reject a mathematical idea is to reject truth itself, and, rather than removing the ideological or philosophical roots of an idea in the humanities, it axiomatically destroys all of the mathematics that have ever followed. 
