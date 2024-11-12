@@ -19,11 +19,11 @@ main:
   - title: "Projects"
     url: /projects/
 
-  - title: "Journal"
-    url: /journal/
-
   - title: "Blog"
     url: /blog/
+    
+  - title: "Journal"
+    url: /journal/
     
   - title: "CV"
     url: /cv/

@@ -7,4 +7,10 @@ redirect_from:
 ## III. History
 *To return to the table of contents, click [here](\pages/wgss_project/home\). To return to the previous section, click [here](\pages/wgss_project/intro\).*
 
-history in progress
+*Many thanks to Yale Professor Emeritus Richard Beals, who authored an incredibly helpful manuscript on Yale math and shared it with me at the start of this project.*
+
+history here
+
+*[Previous section: Introduction and Impetus](\pages/wgss_project/intro)*
+
+*LINK NEXT SECTION*
