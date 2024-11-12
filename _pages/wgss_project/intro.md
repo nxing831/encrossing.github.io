@@ -20,17 +20,7 @@ One might look at arguments on slavery for two diametrically opposed examples: i
 Many point out the distinction between mathematics itself and its misapplications. I can understand such an argument and the appeal. In fact, some even suggest "true" mathematicians is, in a sense, gender and race-blind, given that a mathematical contribution is irrefutable and provably independent of the contributor. Of the commonly-cited women who made historically notable contributions in mathematics, many were received well within their fields. Sophie Germain, for example, [delighted Lagrange so much](https://mathshistory.st-andrews.ac.uk/Biographies/Germain/) that he took to mentoring her. [Gauss](https://www.cambridge.org/core/journals/mathematical-gazette/article/abs/sophie-germain-or-was-gauss-a-feminist/6176F6C98067333F574636CD4A40D22C), too, wrote to Germain, 
 >"How can I describe my astonishment and admiration on seeing my esteemed correspondent M. Le Blanc metamorphosed into this celebrated person ... when a woman, because of her sex, our customs and prejudices, encounters infinitely more obstacles than men in familiarising herself with [number theory's] knotty problems, yet overcomes these fetters and penetrates that which is most hidden, she doubtless has the noblest courage, extraordinary talent, and superior genius."
 
-|![Sophie Germain](/images/wgss_proj_images/germain.jpeg "Germain"){: width="30%"}|
-|:--:|
-|Sophie Germain|
-
 In another case, Emmy Noether was forced the lecture under a male pseudonym due to the [criticism of the philosophy department](https://scientificwomen.net/women/noether-emmy-75) at the University of Göttingen, not mathematicians Hilbert and Klein, who had invited her there to teach. Even further back and one encounters incredible examples such as Hypatia of Alexandria (born approx. 350-370 AD). 
-
-
-|![Emmy Noether](/images/wgss_proj_images/Noether.jpg "Noether"){: width="40%"}|
-|:--:|
-|Emmy Noether|
-
 
 This, of course, is not to diminish the real discrimination countless female mathematicians have experienced in history, many times at the hands of fellow mathematicians. Simply treating two people with the same attitude will produce varied results if society values their worth as individuals differently. Blindness is not enough. The truth remains that mathematical ability has implications far beyond the walls of the university, and that there are statistically significant discrepancies in performance and interest between racial, socioeconomic, and gendered groups. 
 
