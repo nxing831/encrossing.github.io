@@ -6,4 +6,5 @@ redirect_from:
 ---
 1. [Background](\projects/2024-11-08-wgss_328/\)
 2. [Impetus and Introduction](\pages/wgss_project/intro/\)
-3. [History of Mathematics at Yale](\pages/wgss_project/history/\)
+3. [Acknowledgments](\pages/wgss_project/acknowledgments\)
+4. [History of Mathematics at Yale](\pages/wgss_project/history/\)

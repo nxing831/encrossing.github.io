@@ -32,4 +32,4 @@ I am grateful for those who have aided my journey, many of whom are interviewed 
 
 *[Previous section: Background](\projects/2024-11-08-wgss_328/)*
 
-*[Next section: History of Mathematics at Yale](\pages/wgss_project/history/)*
+*[Next section: Acknowledgments](\pages/wgss_project/acknowledgments/)*
