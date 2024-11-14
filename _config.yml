@@ -238,6 +238,10 @@ collections:
   journal:
     output: true
     permalink: /:collection/:path/
+  wgss_posts:
+    output: true
+    permalink: /:collection/:path/
+
 
 
 # These settings control how pages and collections are included in the site
@@ -307,6 +311,14 @@ defaults:
   - scope:
       path: ""
       type: journal
+    values:
+      layout: single
+      author_profile: true
+      share: true
+    # _projects
+  - scope:
+      path: ""
+      type: wgss_posts
     values:
       layout: single
       author_profile: true
