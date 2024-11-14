@@ -8,3 +8,4 @@ redirect_from:
 2. [Impetus and Introduction](\pages/wgss_project/intro/\)
 3. [Acknowledgments](\pages/wgss_project/acknowledgments\)
 4. [History of Mathematics at Yale](\pages/wgss_project/history/\)
+5. [Compilation of Written Work: Personal Reflections, Interviews, and Arguments](\pages/wgss_project/essays/\)

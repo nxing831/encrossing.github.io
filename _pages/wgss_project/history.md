@@ -34,4 +34,4 @@ Works referenced include:
 
 *[Previous section: Acknowledgments](\pages/wgss_project/acknowledgments)*
 
-*LINK NEXT SECTION*
+*[Next section: Compilation of Written Work](\pages/wgss_project/essays/)*
