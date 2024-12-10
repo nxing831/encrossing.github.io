@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Nicole Xing"
+title                    : "Nicole X"
 title_separator          : "-"
-name                     : &name "Nicole Xing"
+name                     : &name "Nicole X"
 description              : &description "personal website"
 url                      : https://nxing831.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -22,7 +22,7 @@ repository               : "nxing831/nxing831.github.io"
 author:
   # Biographic information
   avatar           : "profile_image.JPG"
-  name             : "Nicole Xing"
+  name             : "Nicole X"
   pronouns         : "she/her"
   bio              : "self-declared fishing extraordinaire & math enjoyer"
   location         : "New Haven, CT"
