@@ -11,11 +11,12 @@ redirect_from:
 
 Education
 ======
-* B.S. in Mathematics, Yale University, 2026 (expected)
+* B.S. in Mathematics, Yale University, 2026.5 (expected)
 
 Work experience (2023 -- )
 ======
-* September 2024 -- Present: Rex Ying Graph and Geometric Learning Lab
+
+* Dec 2024 -- Present: Rex Ying Graph and Geometric Learning Lab
   * Research Intern
   * Researching graph-aware PEFT for LLMs
   * Mentor: Prof. Rex Ying (Yale), Jialin Chen (Yale)
