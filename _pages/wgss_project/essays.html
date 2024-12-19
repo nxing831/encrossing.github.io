@@ -7,9 +7,13 @@ redirect_from:
 
 {% include base_path %}   
 <p>To return to the table of contents, click <a href="\pages\wgss_project\home">here</a>. To return to the previous section, click <a href="\pages\wgss_project\history">here</a>.</p>
-{% for post in site.wgss_posts %} 
+
+Some entries are more formal than others. Interviews have been merged into one post to protect anonymity.
+
+{% assign sorted_posts = site.wgss_posts | sort: 'date' | reverse %}
+{% for post in sorted_posts  %} 
 {% include archive-single.html %} 
 {% endfor %}
 
-
-
+<p><a href = "\pages/wgss_project/history">Previous Section: History</a></p>
+<p><a href = "\pages/wgss_project/outcomes">Next Section: Outcomes</a></p>

@@ -29,8 +29,6 @@ After the 1755 establishment of the first professorship at Yale on sacred theolo
 
 Between the years 1920-1930, Yale experienced a transition from classical mathematics to, relatively speaking, modern mathematics. Undergraduate teaching reforms from 1918-1919, too, affected the way mathematics was taught at 
 
-Works referenced include:
-*  Harold L. Dorwart's *Mathematics and Yale in the Nineteen Twenties*
 
 *[Previous section: Acknowledgments](\pages/wgss_project/acknowledgments)*
 
