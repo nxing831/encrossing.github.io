@@ -18,8 +18,8 @@ Work experience (2023 -- )
 
 * Dec 2024 -- Present: Rex Ying Graph and Geometric Learning Lab
   * Research Intern
-  * Researching graph-aware PEFT for LLMs
-  * Mentor: Prof. Rex Ying (Yale), Jialin Chen (Yale)
+  * Researching hyperbolic representation learning
+  * Mentor: Prof. Rex Ying (Yale), Ngoc Bui (Yale)
 
 * Summer 2024: Los Alamos National Laboratory
   * Research Intern
