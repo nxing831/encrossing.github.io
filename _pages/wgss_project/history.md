@@ -7,8 +7,7 @@ redirect_from:
 ## IV. History of Mathematics at Yale
 *To return to the table of contents, click [here](\pages/wgss_project/home\). To return to the previous section, click [here](\pages/wgss_project/acknowledgments\).*
 
-*Many thanks to Yale Professor Emeritus Richard Beals, who authored an incredibly helpful manuscript on Yale math and shared it with me at the start of this project.*
-
+***THIS SECTION IS UNFINISHED AND EXPERIENCING ONGOING RESARCH***
 At its founding, Yale's curriculum was largely focused on religious training; its mission, as stated in its [1701 charter](https://guides.library.yale.edu/yalehistory), declares an intention to prepare youth for "Publick employment both in Church and Civil State." Therefore, beyond theological instruction, some emphasis was also given to the classics, humanities, and natural sciences. In particular, with focus to astronomy, arithmetic and geometry were a part of the early curriculum. 
 
 |!["Yale's Founding Charter"](/images/wgss_proj_images/yale_charter.png){: width="70%"}|

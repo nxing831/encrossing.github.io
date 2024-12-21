@@ -21,9 +21,11 @@ main:
 
   - title: "Blog"
     url: /blog/
+
+  - title: "Books"
+    url: https://spring-marscapone-9f8.notion.site/Nicole-s-Textbook-Library-162939758449806d9831d05b19a9242a
     
   - title: "CV"
     url: /cv/
-    
   #- title: "Guide"
   #  url: /markdown/
