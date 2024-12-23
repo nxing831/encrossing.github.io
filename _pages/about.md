@@ -11,7 +11,7 @@ welcome to my website! it's under construction \\(\mu-a.e\\)., but i'll be stori
 
 **the academic:** i'm nicole, and i'm an undergraduate math major at yale. i'm currently researching:
 * hyperbolic representation learning with the Rex Ying Graph & Geometric Learning Lab (Yale)
-* discrete mathematics with Prof. Pablo Soberón (CUNY Baruch). a
+* discrete mathematics with Prof. Pablo Soberón (CUNY Baruch). 
 
 roughly speaking, my academic interests include differential geometry, machine learning, and cryptography. i'm curious about web3 / ZK and ergodic theory!
 
