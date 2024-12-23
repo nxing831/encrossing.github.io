@@ -1,13 +1,13 @@
 ---
 permalink: /
-title: "nicole's web archive: home"
+title: "𓇢𓆸❀𓏲𓇬₊˚ nicole’s brain garden ‧₊˚𖤣𖥧‧⚘༉˚."
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-welcome to my website! it's under construction \\(\mu-a.e\\)., but i'll be storing projects, blog posts, and some random stuff on here.
+welcome to my digital archive! it's under construction \\(\mu-a.e\\). and an aspiring home for my projects, blog posts, and other human thoughts. 
 
 **the academic:** i'm nicole, and i'm an undergraduate math major at yale. i'm currently researching:
 * hyperbolic representation learning with the Rex Ying Graph & Geometric Learning Lab (Yale)
