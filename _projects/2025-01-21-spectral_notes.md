@@ -15,13 +15,13 @@ date: 2025-01-21
 
 ## Lecture 1 -- Jan 15, 2025
 ### Preliminary Notation
-Graph $G = (V,E)$. Edges $(a,b) = (b,a)$ (undirected), no self-loops, multiedges, default weight = $1$. 
+Graph \\(G = (V,E)\\). Edges \\((a,b) = (b,a)\\) (undirected), no self-loops, multiedges, default weight \\(=1\\). 
 
-Path $V = \{1, ..., n\}, E = \{(a, a+1) | 1 \leq a <n\}$. 
+Path \\(V = \\{1, ..., n\\}, E = \\{(a, a+1) s.t. 1 \leq a\\}\\). 
 
-A ring is a path and the edge $(1,n).$
+A ring is a path and the edge \\((1,n).\\)
 
-Adjacency matrix will usually be denoted as $M$.
+Adjacency matrix will usually be denoted as \\(M\\).
 
 blah blah blah fill out more notation
 ### Matrices for Graphs
@@ -31,7 +31,9 @@ Take the view of a matrix $M$ are an operator mapping a vector $x$ to $Mx$. Also
 The diffusion operator is the "most natural" operator associated with a graph $G$. 
 
 Define $D = \text{diag}(d) = M\cdot(\text{the vector of all 1's})$ as the diagonal matrix of degrees associated with a graph. Then the walk/diffusion matrix is
+
 $$W = M D^{-1}.$$
+
 Each $i,j$ entry in $W$ is nonzero with value $1/d(j)$ if vertex $i$ is adjacent to vertex $j$. Notice that if the graph is regular, e.g. each vertex has the same degree $n$, then $W$ simply rescales $M$, where nonzero entries of $M$ all have value $1/n$.
 
 Let the vector $p\in\mathbb{R}^v$ represent how much "stuff" is at vertex in $G$, i.e., $p(a)$ is the amount of "stuff" at vertex $a$. After one timestep, the new distribution of "stuff" around $G$ is $Wp$. 
@@ -51,7 +53,7 @@ $$x^TL_Gx = \sum_{(a,b)\in E}w_{a,b} (x(a)-x(b))^2.$$
 
 This form measures the "smoothness" of the function $x \in \mathbb{R}^v$; i.e., it will be small if the function does not vary too much between the vertices connected by any edge. 
 
-#### Intuition: Graph Laplacian vs. Continuous Laplacian
+### Intuition: Graph Laplacian vs. Continuous Laplacian
 
 Thinking of $L_G := D_G - M_G$ may not feel intuitive. An alternative line of reasoning connects the continuous Laplacian to its discretization as the graph laplacian:
 
@@ -102,10 +104,65 @@ $$x^TL_Gx = \sum_{(a,b)\in E}w_{a,b} (x(a)-x(b))^2.$$
 
 We can think of this as the Dirichlet energy of a function:
 
-$$E(x) = \frac{1}{2}\sum_{a,b \in E}w_{a,b}(x(a)-x(b))^2$$
-$$= ||K^Tx||^2$$
-$$=x^t L x.$$
+$$
+\begin{aligned}
+E(x) &= \frac{1}{2}\sum_{a,b \in E}w_{a,b}(x(a)-x(b))^2\\
+&= ||K^Tx||^2 \\
+&=x^t L x.
+\end{aligned}
+$$
+
 
 We can think of this as the Dirichlet energy of a function. 
 
-Later we will see that the functions which minimize $x^TLx$ are the eigenvectors of the Laplacian. For unit norm functions, this expression is the Rayleigh quotient of the Laplacian. Min-max theorem also gives that the solutions to this minimization are the eigenvectors. 
+
+### Rayleigh Quotient
+
+The Rayleigh quotient of $x$ with respect to matrix $M$ is \\( \frac{x^TMx}{x^Tx} \\).
+
+*Theorem: If \\(M \\) is symmetric and \\(x\\) maximizes the Rayleigh quotient, then \\(Mx = \mu_1 x\\).*
+PUT IN THE PROOF
+
+*Theorem: Let \\(M\\) be a \\(n\times n\\) symmetric matrix and \\(x\\) maximize the Rayleigh quotient. Then \\(Mx = \frac{x^TMx}{x^Tx}x.\\)*
+
+PUT IN THE PROOF
+## Lecture 2 -- Jan 17, 2025
+### Spectral Theorem
+Every real symmetric \\(n \times n\\) matrix has \\(n\\) real eigenvalues and orthonormal eigenvectors (which are not necessarily uniquely defined).
+
+### Courant-Fischer (Min-Max Theorem)
+
+### Using Laplacian Quadratic Form to Derive Matrix Structure
+The Laplacian matrix is designed to capture the Laplacian quadratic form: 
+
+$$x^T L x = \sum_{(a,b)\in E}w_{a,b}(x(a)-x(b))^2.$$
+
+We can now use the quadratic form to derive the structure of the matrix. 
+
+### Hall's Spectral Graph Drawing
+The idea of drawing graphs using eigenvectors was suggested by Hall.
+
+Consider the problem of drawing a graph on a line (i.e., mapping each vertex to a real number). On a straight line, we can't see the graph well, as all the edges overlap. This problem can be fixed by drawing the edges of the graph as curves or by wrapping the line around a circle. 
+
+Let \\(x: V \rightarrow \mathbb{R} \\) be a mapping of each vertex to a real number (can also say \\(x \in \mathbb{R}^V\\)). We would like neighboring vertices to be close to one another. For an unweighted graph, Hall suggests choosing an \\(x\\) minimizing
+
+$$x^T L x = \sum_{(a,b) \in E} (x(a)-x(b))^2.$$
+
+To avoid degeneracy in the solution, we require \\( \vert \vert x \vert \vert = 1\\) and \\(\sum_a x(a) = 0\\). 
+
+## Lecture 3 -- Jan 22, 2025
+### Adjacency Matrix Eigenvalues
+*Last lecture*: saw Laplacian eigenvalues, showed that \\(\lambda_1 = \lambda_2\\) if and only if the graph is disconnected.
+
+*This lecture*: look at adjacency matrix eigenvalues. If graph is \\(d\\)-regular, then \\(\mu_i = d - \lambda_i \\) and \\( \mu_1 = d\\). We are interested in the irregular case. Will show that \\(\mu_1 = \mu_2\\) if and only if the graph is disconnected, \\(\mu_u = - \mu_1\\) if and only if the graph is bipartite, and that the chromatic number \\(\leq 1 + \left \lfloor {\mu_1} \right \rfloor \\).
+
+### Symmetric Perron-Frobenius 
+For a connected, weighted graph, 
+- \\(\mu_1 \\) has a strictly positive eigenvector
+- \\(\mu_1 > \mu_2 \\)
+- \\(\mu_1 \geq \vert \mu_n \vert \\)
+
+## Lecture 4 -- Jan 24, 2025
+
+
+## Lecture 5 -- Jan 27, 2025 
