@@ -21,26 +21,39 @@ Path $V = \{1, ..., n\}, E = \{(a, a+1) | 1 \leq a <n\}$.
 
 A ring is a path and the edge $(1,n).$
 
+Adjacency matrix will usually be denoted as $M$.
+
 blah blah blah fill out more notation
 ### Matrices for Graphs
 Take the view of a matrix $M$ are an operator mapping a vector $x$ to $Mx$. Also define a quadratic form: the function which maps a vector $x$ to the number $x^TMx$. 
 
 ### Diffusion Operator
-Diffusion operator is "most natural operator" associated with a graph $G$. 
+The diffusion operator is the "most natural" operator associated with a graph $G$. 
+
+Define $D = \text{diag}(d) = M\cdot(\text{the vector of all 1's})$ as the diagonal matrix of degrees associated with a graph. Then the walk/diffusion matrix is
+$$W = M D^{-1}.$$
+Each $i,j$ entry in $W$ is nonzero with value $1/d(j)$ if vertex $i$ is adjacent to vertex $j$. Notice that if the graph is regular, e.g. each vertex has the same degree $n$, then $W$ simply rescales $M$, where nonzero entries of $M$ all have value $1/n$.
+
+Let the vector $p\in\mathbb{R}^v$ represent how much "stuff" is at vertex in $G$, i.e., $p(a)$ is the amount of "stuff" at vertex $a$. After one timestep, the new distribution of "stuff" around $G$ is $Wp$. 
+
+To see this, consider the case where $p$ is $\delta_a$, the unit vector where $\delta_a(a) = 1$. Then $D^{-1}\delta_a$ is $1/d(a)$ at vertex $a$, and zero elsewhere. $MD^{-1}\delta_a$ is then $1/d(a)$ at every vertex that is a neighbor of $a$, and zero elsewhere. This makes sense intuitively--when all "stuff" is concentrated at vertex $a$, it should diffuse evenly to each of $a$'s neighbors. Since any other vector $p\in \mathbb{R}^v$ is a linear combination of $\delta$'s, the general behavior described above holds. 
+
+Note: if $p$ is a probability distribution, then $Wp$ represents the distribution of "stuff" after one step in a random walk.
+
 
 ### Graph Laplacian
 A natural quadratic form associated with a graph is its Laplacian matrix,
 $$L_G := D_G - M_G$$
-where $D_G$ is the diagonal degree matrix and $M_G$ the adjacency matrix. 
+where $D_G$ is the diagonal degree matrix and $M_G$ the adjacency matrix. The graph Laplacian has the degrees of $G$ on its diagonal, $-1$ for neighboring nodes, and $0$ otherwise.
 
 Given a function on the vertices, $x$, the value of the Laplacian quadratic form of a weighted graph where an edge $(a,b)$ has weight $w_{a,b}>0$ is
 $$x^TL_Gx = \sum_{(a,b)\in E}w_{a,b} (x(a)-x(b))^2.$$
 
 This form measures the "smoothness" of the function $x \in \mathbb{R}^v$; i.e., it will be small if the function does not vary too much between the vertices connected by any edge. 
 
-#### Intuition: Graph Laplacian as Discretization of Continuous Laplacian
+#### Intuition: Graph Laplacian vs. Continuous Laplacian
 
-Thinking of $L_G := D_G - M_G$ is not very intuitive for me. A line of reasoning that feels helpful is the following:
+Thinking of $L_G := D_G - M_G$ may not feel intuitive. An alternative line of reasoning connects the continuous Laplacian to its discretization as the graph laplacian:
 
 In Euclidean space, the Laplace operator is the divergence of the gradient of a function:
 
